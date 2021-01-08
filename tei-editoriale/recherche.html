@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Projet - Documents Structurés</h1>
+            
+            <h2>Recherche d'informations</h2>
+                <form>
+                <br/>
+                  <label>1. Choisir une option concernant l'année pour rechercher le document:</label>
+                <br/>
+                  
+                  <input type="radio" name="ent" value="ent"/>
+                  <label for="entree">Année de publication : </label>
+                  <input name="entree"/>
+                  <input type="submit" value="Recherche"/>
+                  <input type="reset"/>
+                  <div class="config:recherche-publication"/>  
+                <br/>
+                  
+                <input type="radio" name="ann" value="ann"/>
+                  <label for="annee">Année de création : </label>
+                  <input name="annee"/>
+                  <input type="submit" value="Recherche"/>
+                  <input type="reset"/>
+                  <div class="config:recherche-annee-creation"/>   
+                </form>
+                
+                <form action="" id="recherche-form">
+                <br/>
+                <label>2. Entrer du mot-clé et un auteur:</label>
+                <br/>
+                <label name="cle">Mot-clé : </label>
+                <input name="cle"/>
+                <label name="aut">Auteur : </label>
+                <input name="aut"/>
+                <input type="submit" value="Recherche"/>
+                <input type="reset"/>
+                </form>
+                <div class="config:recherche-plein-texte"/>  
+        
+            
+            
+        </div>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="page">
+            <ref name="projet"/>
+            <ref name="titre"/>
+            <ref name="salutation"/>
+            <ref name="texte"/>
+        </element>
+    </start>
+        
+        <define name="projet">
+            <element name="projet">
+            <text/>
+            </element>
+        </define>
+        
+        <define name="titre">
+            <element name="titre">
+                <text/>
+            </element>
+        </define>
+        
+        <define name="salutation">
+            <element name="salutation">
+                <text/>
+            </element>
+        </define>
+        
+        <define name="texte">
+            <oneOrMore>
+            <element name="texte">
+                <oneOrMore>
+                <element name="partie">
+                    <text/>
+                </element>
+                </oneOrMore>
+                <oneOrMore>
+                <element name="paragraphe">
+                    <text/>
+                </element>
+                </oneOrMore>
+            </element>  
+            </oneOrMore>
+        </define> 
+
+</grammar>

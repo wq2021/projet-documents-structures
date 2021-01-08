@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Projet - Documents Structurés</description>
+    <author>Qi WANG</author>
+<!--
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>projet</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+-->
+<deployed>2020-12-31T17:26:16.589+01:00</deployed>
+</meta>
