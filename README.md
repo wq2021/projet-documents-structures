@@ -8,7 +8,7 @@ Nous pouvons diviser les missions de ce projet en deux étapes principales. Afin
 
 ### I. Transformation des documents odt
 
-L'objectif de la première étape est de transformer les documents au format OpenDocument (.odt) en document XML selon le standard de la Text Encoding Initiative (TEI). Pour cela, le schéma TEI permet de valider la structure. D'ailleurs, un SchemaTron permet de respecter l'encodage attendu de certaines métadonnées. En conséquence, les documents sont stockés dans une base de données XML (exist-db). 
+L'objectif de la première étape est de transformer les documents au format OpenDocument (.odt) en document XML selon le standard de la Text Encoding Initiative (TEI). Pour cela, le schéma TEI permet de valider la structure. En conséquence, les documents sont stockés dans une base de données XML (exist-db). 
 
 Cette étape est largement réalisé à l'aide du logiciel [Oxygen](https://www.oxygenxml.com/), éditeur XML multi-plateforme. Les données pertinentes sont stockées dans le dossier [transformation](transformation).  
 
